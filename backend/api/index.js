@@ -1,8 +1,8 @@
 import express from 'express';
 import {createServer} from 'http';
 import { Server } from 'socket.io';
-import { APP_PORT, FRONTEND_URL } from './config';
-import { ACTIONS } from './actions';
+import { APP_PORT, FRONTEND_URL } from '../config';
+import { ACTIONS } from '../actions'
 
 const app = express()
 const httpServer = createServer(app)
